@@ -1,0 +1,12 @@
+
+.top-row #type {
+    margin-left: 15px;  
+}
+
+.bottom-row {
+    margin-top: 15px;
+}
+
+.bottom-row #calc-button {
+    margin-left: 15px;
+}
