@@ -1,11 +1,19 @@
+import { Component } from '@angular/core';
 import { TestBed } from '@angular/core/testing';
 import { AppComponent } from './app.component';
+
+@Component({
+  selector: 'app-calculator',
+  template: ''
+})
+class MockCalculatorComponent {}
 
 describe('AppComponent', () => {
   beforeEach(async () => {
     await TestBed.configureTestingModule({
       declarations: [
-        AppComponent
+        AppComponent,
+        MockCalculatorComponent
       ],
     }).compileComponents();
   });
