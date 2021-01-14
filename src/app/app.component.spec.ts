@@ -23,4 +23,9 @@ describe('AppComponent', () => {
     const app = fixture.componentInstance;
     expect(app).toBeTruthy();
   });
+
+  it('should display the Aegon banner', () => {
+      const fixture = TestBed.createComponent(AppComponent);
+      expect(fixture.nativeElement.textContent).toContain('Simple Aegon Calculator');
+  });
 });
